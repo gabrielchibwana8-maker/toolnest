@@ -1,0 +1,296 @@
+/* Remove the browser's default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Hover effect */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Tools Section */
+.tools {
+    padding: 60px 20px;
+}
+
+.tools h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Card Layout */
+.tool-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Individual Card */
+.tool-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tool-card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tool-container {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Calculator Section */
+.calculator {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.calculator button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.calculator button:hover {
+    background: #1d4ed8;
+}
+
+.calculator h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.calculator label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.tool-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tool-button:hover {
+    background-color: #1d4ed8;
+}
+
+.tools-description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+body {
+
+font-family: Arial, sans-serif;
+background: #f2f2f2;
+padding: 20px;
+
+}
+
+
+.container {
+
+max-width: 700px;
+margin: auto;
+background: white;
+padding: 25px;
+border-radius: 15px;
+box-shadow: 0 0 10px gray;
+
+}
+
+
+h1 {
+
+text-align: center;
+color: #333;
+
+}
+
+
+textarea {
+
+width: 100%;
+height: 180px;
+padding: 15px;
+font-size: 16px;
+border-radius: 10px;
+border: 1px solid #aaa;
+box-sizing: border-box;
+
+}
+
+
+
+.buttons {
+
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 15px;
+
+}
+
+
+
+button {
+
+padding: 12px;
+flex: 1;
+border: none;
+border-radius: 8px;
+background: #007bff;
+color: white;
+cursor: pointer;
+font-size: 15px;
+
+}
+
+
+
+button:hover {
+
+background: #0056b3;
+
+}
+
+
+
+.stats {
+
+margin-top: 20px;
+background: #eee;
+padding: 15px;
+border-radius: 10px;
+
+}
+
+
+
+.stats p {
+
+font-size: 17px;
+
+}
+
+
+
+@media(max-width:600px){
+
+button{
+
+flex:100%;
+
+}
+
+}
